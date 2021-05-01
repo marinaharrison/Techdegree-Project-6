@@ -1,0 +1,49 @@
+{
+    "projects":[
+        {"id":0, 
+        "project_name":"Random Quote Generator",
+        "description": "Takes a random quote from an array and displays it on a webpage. Features a button to grab a new quote each time.",
+        "technologies": ["Arrays", "Functions", "SetInterval","Math.Random"],
+        "live_link": "https://marinaharrison.github.io/Techdegree-Project-1",
+        "github_link": "https://github.com/marinaharrison/Techdegree-Project-1",
+        "image_urls": ["../static/images/project1/project1_a.png",
+                       "../static/images/project1/project1_b.png"]
+        },
+        {"id":1,
+        "project_name":"Data Pagination",
+        "description": "Takes a list of 42 employees from a data file and displays a max of 9 of the employees per page. Selecting different pages moves the user through a different set of employees.",
+        "technologies": ["Loops", "Math.ceil", "InnerHTML","AddEventListener", "ClassList", "QuerySelector"],
+        "live_link": "https://marinaharrison.github.io/Techdegree-Project-2",
+        "github_link": "https://github.com/marinaharrison/Techdegree-Project-2",
+        "image_urls": ["../static/images/project2/project2_a.png",
+                       "../static/images/project2/project2_b.png"]
+        },
+        {"id":2,
+        "project_name":"Interactive Form",
+        "description": "Creates an event form for a developer conference. Features form validation, and will let the user know if the form is not filled in correctly. Form refreshes when submitted.",
+        "technologies": ["Regex","QuerySelector", "AddEventListener", "ClassList"],
+        "live_link": "https://marinaharrison.github.io/Techdegree-Project-3",
+        "github_link": "https://github.com/marinaharrison/Techdegree-Project-3",
+        "image_urls": ["../static/images/project3/project3_a.png",
+                       "../static/images/project3/project3_b.png"]
+        },
+        {"id":3,
+        "project_name":"Phrase Hunter",
+        "description": "A letter-guessing game. Shows a hidden phrase, user clicks letters on a keyboard that are highlighted red if wrong and green if correct. Prints characters to the display when letters are guessed correctly.",
+        "technologies": ["Classes","Constructors", "AddEventListener", "Arrays", "ForEach","Regex"],
+        "live_link": "https://marinaharrison.github.io/Techdegree-Project-4",
+        "github_link": "https://github.com/marinaharrison/Techdegree-Project-4",
+        "image_urls": ["../static/images/project4/project4_a.png",
+                       "../static/images/project4/project4_b.png"]
+        },
+        {"id":4,
+        "project_name":"Employee Directory",
+        "description": "Makes a public API request to RandomUser API and displays a list of 12 employees to a page. When an employee is clicked, a modeal window appears displaying employee information. When the paged is refreshed, a new set of employees is displayed.",
+        "technologies": ["Async Functions", "Await", ".then",".catch","Map","InsertAdjacentHTML"],
+        "live_link": "https://marinaharrison.github.io/Techdegree-Project-5",
+        "github_link": "https://github.com/marinaharrison/Techdegree-Project-5",
+        "image_urls": ["../static/images/project5/project5_a.png",
+                       "../static/images/project5/project5_b.png"]
+            }
+        ]
+}
