@@ -1,0 +1,21 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 My Portfolio
+
+    p My name is Marina Harrison and I am currently a FullStack TechDegree student. This is a portfolio to showcase my work thus far and the various technologies that I have learned so far in this program. 
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+
+      each project in projects 
+
+        .cell
+          a(href=`/project/${project.id}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt='A screenshot of my project')
+            h5= `${project.project_name}`
+
